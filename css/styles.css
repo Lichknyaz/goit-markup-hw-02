@@ -1,8 +1,8 @@
 :root {
-  --dark: #434455;
+  --dark: #2e2f42;
   --primary-brand: #4d5ae5;
   --light: #f4f4fd;
-  --text: #2e2f42;
+  --text: #434455;
   --white: #ffffff;
   --pressed-state: #404bbf;
 }
@@ -13,6 +13,8 @@ body {
   color: var(--dark);
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+  background-color: var(--white);
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -22,19 +24,26 @@ ul {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Head */
@@ -49,14 +58,14 @@ h3 {
   color: var(--pressed-state);
 }
 
-.contacts {
+.contacts li a {
   text-decoration: none;
   font-style: normal;
   color: var(--text);
 }
 
-.contacts:hover,
-.contacts:active {
+.contacts li a:hover,
+.contacts li a:active {
   color: var(--pressed-state);
 }
 
@@ -64,6 +73,11 @@ h3 {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: var(--primary-brand);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
 }
 
 .studio-head {
@@ -81,6 +95,9 @@ button {
   cursor: pointer;
   color: var(--white);
   background-color: var(--primary-brand);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 button:hover,
