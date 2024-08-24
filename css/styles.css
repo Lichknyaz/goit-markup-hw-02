@@ -61,16 +61,15 @@ h3 {
   color: var(--pressed-state);
 }
 
-.mail,
-.tel {
+.contact {
   text-decoration: none;
   font-style: normal;
   color: var(--text);
 }
 
-.contacts li a:hover,
-.contacts li a:active,
-.contacts li a:focus {
+.contact:hover,
+.contact:active,
+.contact:focus {
   color: var(--pressed-state);
 }
 
