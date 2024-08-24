@@ -10,7 +10,7 @@
 /* General */
 
 body {
-  color: var(--dark);
+  color: var(--text);
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   background-color: var(--white);
@@ -54,7 +54,8 @@ h3 {
 }
 
 .nav-anchor:hover,
-.nav-anchor:active {
+.nav-anchor:active,
+.nav-anchor:focus {
   color: var(--pressed-state);
 }
 
@@ -65,7 +66,8 @@ h3 {
 }
 
 .contacts li a:hover,
-.contacts li a:active {
+.contacts li a:active,
+.contacts li a:focus {
   color: var(--pressed-state);
 }
 
@@ -82,7 +84,7 @@ h3 {
 
 .studio-head {
   font-family: "Raleway", sans-serif;
-  color: var(--text);
+  color: var(--dark);
 }
 
 /* Main header */
