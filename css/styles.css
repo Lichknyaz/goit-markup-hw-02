@@ -37,6 +37,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--dark);
 }
 
 h3 {
@@ -44,6 +45,7 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 /* Head */
@@ -59,7 +61,8 @@ h3 {
   color: var(--pressed-state);
 }
 
-.contacts li a {
+.contacts.mail,
+.contacts.tel {
   text-decoration: none;
   font-style: normal;
   color: var(--text);
