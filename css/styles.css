@@ -21,6 +21,10 @@ ul {
   list-style-type: none;
 }
 
+address {
+  font-style: normal;
+}
+
 h1 {
   font-weight: 700;
   font-size: 56px;
@@ -63,7 +67,6 @@ h3 {
 
 .contact {
   text-decoration: none;
-  font-style: normal;
   color: var(--text);
 }
 
